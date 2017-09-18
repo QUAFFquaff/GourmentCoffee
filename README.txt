@@ -1,0 +1,2 @@
+本次实验用java和HTML/CSS编写，打开的话，idea首选，然后是eclipse也可以
+网页打开首推firefox，edge可能会有一些兼容性问题

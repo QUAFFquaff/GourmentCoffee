@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane fx:controller="gui.AddProductionController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="970.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="90.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="code" textAlignment="CENTER" />
+
+      <Text disable="true" fill="#0f1b07" layoutX="69.0" layoutY="113.0" stroke="#6149f8" strokeType="OUTSIDE" strokeWidth="0.0" text="Description" textAlignment="CENTER">
+         <font>
+            <Font name="System Italic" size="15.0" />
+         </font>
+      </Text>
+      <Text fontSmoothingType="LCD" layoutX="537.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prise" />
+      <Text layoutX="90.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Origin" wrappingWidth="66.30029296875" />
+      <Text layoutX="90.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Roast" textAlignment="CENTER" />
+      <Text layoutX="90.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Flavor" textAlignment="CENTER" />
+      <Text layoutX="90.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Aroma" textAlignment="CENTER" />
+      <Text layoutX="90.0" layoutY="340.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Acidity" textAlignment="CENTER" />
+      <Text layoutX="90.0" layoutY="380.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Body" textAlignment="CENTER" />
+      <Text layoutX="500.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Model Of Brewer" textAlignment="CENTER" />
+      <Text layoutX="500.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Water supply" textAlignment="CENTER" />
+      <Text layoutX="500.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Capacity" textAlignment="CENTER" />
+      <TextField fx:id="code" layoutX="235.0" layoutY="60.0" />
+      <TextField fx:id="prise" layoutX="687.0" layoutY="60.0" />
+      <TextArea fx:id="description" layoutX="235.0" layoutY="93.0" prefHeight="60.0" prefWidth="653.0" />
+      <TextField fx:id="origin" layoutX="235.0" layoutY="160.0" />
+      <TextField fx:id="roast" layoutX="235.0" layoutY="200.0" />
+      <TextField fx:id="flavor" layoutX="235.0" layoutY="240.0" />
+      <TextField fx:id="aroma" layoutX="235.0" layoutY="280.0" />
+      <TextField fx:id="acidity" layoutX="232.0" layoutY="320.0" />
+      <TextField fx:id="body" layoutX="232.0" layoutY="360.0" />
+      <TextField fx:id="model" layoutX="687.0" layoutY="160.0" />
+      <TextField fx:id="waterSupply" layoutX="687.0" layoutY="200.0" />
+      <TextField fx:id="capacity" layoutX="687.0" layoutY="240.0" />
+      <Button fx:id="submit" onAction="#handleSubmitButton" layoutX="754.0" layoutY="329.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="110.0" text="Submit">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Text layoutX="402.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Production" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
